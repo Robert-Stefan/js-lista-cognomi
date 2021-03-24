@@ -3,24 +3,28 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
 }
 
 body {
-    font-family: sans-serif;
+    font-family: 'Ranchers', cursive;
     text-align: center;
     color: #333;
-    background: rgba(16, 102, 131, 0.959);
+    background-image: url(./img/sfondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
 }
 
 #posizione {
-    font-size: 30px;
+    font-size: 50px;
 }
 
 header {
     margin-bottom: 3rem;
     padding: 1rem;
     border-bottom: 3px solid rgba(0, 0, 0, .1);
-    font-weight: bold;
+    font-size: 35px;
 }
 
 ul {
@@ -35,4 +39,5 @@ ul li {
     padding: 1rem;
     background: rgba(255, 255, 255, .75);
     box-shadow: 0 15px 5px -10px rgba( 0, 0, 0, .25);
+    font-size: 30px;
 }
