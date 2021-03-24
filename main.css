@@ -9,13 +9,18 @@ body {
     font-family: sans-serif;
     text-align: center;
     color: #333;
-    background: deepskyblue;
+    background: rgba(16, 102, 131, 0.959);
+}
+
+#posizione {
+    font-size: 30px;
 }
 
 header {
     margin-bottom: 3rem;
     padding: 1rem;
-    border-bottom: 1px dotted rgba(0, 0, 0, .1);
+    border-bottom: 3px solid rgba(0, 0, 0, .1);
+    font-weight: bold;
 }
 
 ul {

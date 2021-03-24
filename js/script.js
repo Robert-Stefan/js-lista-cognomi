@@ -13,3 +13,17 @@ console.log(lista.sort());
 
 var umano = lista.indexOf(utente) + 1;
 console.log(umano);
+
+var item = '';
+
+for (var i = 0; i < lista.length; i++ ) {
+    
+    console.log( lista[i] );
+
+    item += '<li>' + lista[i] + '</li>';
+}
+
+console.log(item);
+
+document.getElementById('surnames').innerHTML = item;
+document.getElementById('posizione').innerHTML = 'La posizione del tuo cognome è: ' + umano;
